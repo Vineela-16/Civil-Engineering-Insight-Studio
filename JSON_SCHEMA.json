@@ -1,0 +1,63 @@
+{
+  "StructureType": "string (e.g., 'reinforced concrete frame building', 'steel truss bridge', 'masonry wall')",
+  "Materials": [
+    {
+      "material": "string (e.g., 'reinforced concrete', 'structural steel', 'brick masonry')",
+      "evidence": "string (explain visual clues that led to this material identification)"
+    },
+    {
+      "material": "second material example",
+      "evidence": "description of evidence"
+    }
+  ],
+  "Dimensions": {
+    "estimates": [
+      {
+        "element": "string (e.g., 'floor-to-floor height', 'beam span', 'wall thickness')",
+        "estimate_m": "number or null (best estimate in meters)",
+        "range_m": "string (e.g., '3.0-3.5' for uncertainty range)",
+        "confidence": "string ('high'|'medium'|'low')",
+        "assumptions": "string (explain what you're assuming to reach this estimate)"
+      },
+      {
+        "element": "another dimension",
+        "estimate_m": 5.5,
+        "range_m": "5.0-6.0",
+        "confidence": "medium",
+        "assumptions": "based on standard floor heights in similar structures"
+      }
+    ],
+    "notes": "string (general notes about dimensions, scale estimation method, or visual clues used)"
+  },
+  "ConstructionMethodology": [
+    "string (e.g., 'cast-in-place concrete slabs on columns')",
+    "string (e.g., 'prefabricated steel members bolted together')",
+    "string (e.g., 'in-situ foundation excavation and piling')"
+  ],
+  "ProjectProgress": {
+    "completed": [
+      "string (e.g., 'structural frame erected')",
+      "string (e.g., 'exterior facade partially complete')"
+    ],
+    "pending": [
+      "string (e.g., 'interior finishing')",
+      "string (e.g., 'mechanical systems installation')"
+    ],
+    "confidence": "string (assess how certain you are about the progress stage: 'high'|'medium'|'low')"
+  },
+  "EngineeringChallenges": [
+    "string (e.g., 'differential settlement visible in foundation')",
+    "string (e.g., 'potential lateral instability in unsupported cantilever')",
+    "string (e.g., 'inadequate shear reinforcement in critical zones')"
+  ],
+  "Recommendations": [
+    "string (e.g., 'perform structural inspection of concrete quality')",
+    "string (e.g., 'verify connections meet current seismic codes')",
+    "string (e.g., 'monitor differential settlement with level surveys')"
+  ],
+  "Uncertainties": [
+    "string (e.g., 'cannot determine internal reinforcement from exterior view')",
+    "string (e.g., 'foundation type not visible; assumed to be piles')",
+    "string (e.g., 'material specifications unknown; based on visual appearance')"
+  ]
+}

@@ -1,4 +1,5 @@
 🏗️ Civil Engineering Insight Studio
+
 📌 Project Overview
 
 Civil Engineering Insight Studio is a Streamlit-based web application that analyzes images of civil engineering structures using Google Generative AI (Gemini) and generates professional, text-based engineering reports.
@@ -59,24 +60,33 @@ Pillow
 
 📂 Project Structure
 Civil-Engineering-Insight-Studio/
+
 │
 ├── app.py              # Main Streamlit application
+
 ├── requirements.txt    # Python dependencies
+
 ├── .gitignore          # Git ignore file (protects .env)
+
 ├── README.md           # Project documentation
 
+
 ⚙️ Installation & Setup
+
 
 1️⃣ Clone the Repository
 git clone https://github.com/Vineela-16/Civil-Engineering-Insight-Studio.git
 cd Civil-Engineering-Insight-Studio
 
+
 2️⃣ Create a Virtual Environment (Recommended)
 python -m venv venv
 venv\Scripts\activate   # On Windows
 
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
 
 4️⃣ Configure API Key
 
@@ -88,7 +98,9 @@ GEMINI_MODEL=gemini-2.5-flash
 
 🔑 Get your API key from: https://ai.google.dev/
 
+
 ⚠️ Note: The .env file is not included in the repository for security reasons.
+
 
 ▶️ Running the Application
 streamlit run app.py
@@ -145,9 +157,13 @@ Year: 2026
 This project is free to use for educational purposes.
 
 Support
+
 For issues with:
 
 Google Gemini API: https://ai.google.dev/
+
 Streamlit: https://docs.streamlit.io/
+
 Python: https://www.python.org/doc/
+
 Created: February 2026 Version: 2.0 (Refactored with native image support and dual output modes)

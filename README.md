@@ -1,10 +1,14 @@
-🏗️ Civil Engineering Insight Studio
+🏗️ Civil Engineering Insight Studio 🚧
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📌 Project Overview
 
 Civil Engineering Insight Studio is a Streamlit-based web application that analyzes images of civil engineering structures using Google Generative AI (Gemini) and generates professional, text-based engineering reports.
 
 The application is designed to assist students, engineers, and educators by providing quick visual analysis of structures such as buildings, bridges, construction sites, and other infrastructure elements.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🎯 Objective
 
@@ -21,6 +25,8 @@ Highlight engineering challenges
 Provide practical recommendations
 
 This project follows the specifications provided in the SmartBridge assignment document.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ✨ Features
 
@@ -40,6 +46,8 @@ This project follows the specifications provided in the SmartBridge assignment d
 
 🌐 Simple and user-friendly Streamlit interface
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠️ Technology Stack
 
 Programming Language: Python
@@ -58,6 +66,8 @@ python-dotenv
 
 Pillow
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📂 Project Structure
 Civil-Engineering-Insight-Studio/
 
@@ -70,6 +80,7 @@ Civil-Engineering-Insight-Studio/
 
 ├── README.md           # Project documentation
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Installation & Setup
 
@@ -101,6 +112,7 @@ GEMINI_MODEL=gemini-2.5-flash
 
 ⚠️ Note: The .env file is not included in the repository for security reasons.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ▶️ Running the Application
 streamlit run app.py
@@ -109,6 +121,8 @@ streamlit run app.py
 The application will open in your browser at:
 
 http://localhost:8501
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧪 How to Use
 
@@ -120,6 +134,8 @@ Click “Describe Structure”
 
 View the generated professional engineering report
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚠️ Limitations
 
 Analysis is based only on visual input
@@ -127,6 +143,8 @@ Analysis is based only on visual input
 Dimensions and materials are approximate
 
 Results should be validated by qualified professionals for real-world use
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🎓 Academic Use
 
@@ -140,6 +158,8 @@ AI-based application demonstrations
 
 Educational and learning purposes
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📅 Project Details
 
 Project Name: Civil Engineering Insight Studio
@@ -152,9 +172,13 @@ Submission Type: Academic / SmartBridge Assignment
 
 Year: 2026
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ✅ License
 
 This project is free to use for educational purposes.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Support
 
@@ -165,5 +189,7 @@ Google Gemini API: https://ai.google.dev/
 Streamlit: https://docs.streamlit.io/
 
 Python: https://www.python.org/doc/
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Created: February 2026 Version: 2.0 (Refactored with native image support and dual output modes)
